@@ -36,6 +36,4 @@ dataset = tmall
 ssl_lambda = 0.6
 ```
 
-*The log folder provides training logs for reference. The results of a single experiment may differ slightly from those given in the paper because they were run several times and averaged in the experiment.
-
 3. Run main.py.
