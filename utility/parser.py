@@ -2,11 +2,11 @@ import argparse
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="RS")
+    parser = argparse.ArgumentParser(description="MixRec")
 
     parser.add_argument("--seed_flag", type=bool, default=True, help="Fix random seed or not")
 
-    parser.add_argument("--seed", type=int, default=2000, help="random seed for init")
+    parser.add_argument("--seed", type=int, default=2023, help="random seed for init")
 
     parser.add_argument("--data_path", nargs="?", default="./Data/", help="Input data path.")
 
@@ -16,7 +16,7 @@ def parse_args():
 
     parser.add_argument("--verbose", type=int, default=1, help="Test interval")
 
-    parser.add_argument("--stop", type=int, default=500, help="early stopp")
+    parser.add_argument("--stop", type=int, default=500, help="early stop")
 
     parser.add_argument("--save", type=bool, default=False, help="save model or not")
 
