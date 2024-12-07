@@ -1,0 +1,132 @@
+D:\anaconda3\envs\torch\python.exe D:\代码\MixRec\main.py 
+	 Step 1: General parameter setting reading...
+--------------------------------------------------------------------------------
+	 Step 2: Select model MixRec...
+--------------------------------------------------------------------------------
+	 Step 3.1: Loading configuration file...
+	 Step 3.2: Loading dataset file...
+	 num_users: 52643
+	 num_items: 91599
+	 num_nodes: 144242
+	 num_train: 2380726
+	 num_test:  603382
+	 sparisty:  0.999381153165515
+--------------------------------------------------------------------------------
+	 Step 3.3: Init the Recommendation Model:
+	 Adjacency matrix loading completed.
+	 model:  MixRec
+	 dataset_path : ./dataset/
+	 dataset : amazon-book
+	 top_K : [20]
+	 training_epochs : 30
+	 early_stopping : 10
+	 embedding_size : 64
+	 batch_size : 2048
+	 test_batch_size : 2048
+	 learn_rate : 0.001
+	 reg_lambda : 0.0001
+	 GCN_layer : 3
+	 ssl_lambda : 1.1
+	 temperature : 0.2
+	 alpha : 0.1
+	 beta : 0.1
+	 gamma : 0.1
+	 sparsity_test : 0
+--------------------------------------------------------------------------------
+	 Step 4: Model training and testing process:
+
+	 Epoch:    1| train time: 62.766 | train_loss: 10.961763 = 0.341696 + 3.67433 + 2e-06 + 6.945735
+	 Recall: [0.0422476] NDCG: [0.03475703] Pre: [0.01782858]
+
+	 Epoch:    2| train time: 62.334 | train_loss: 10.76897 = 0.359626 + 3.476991 + 4e-06 + 6.932349
+	 Recall: [0.04309284] NDCG: [0.03540032] Pre: [0.01817716]
+
+	 Epoch:    3| train time: 61.989 | train_loss: 10.8171 = 0.34628 + 3.604804 + 8e-06 + 6.866009
+	 Recall: [0.04511408] NDCG: [0.03696743] Pre: [0.01894934]
+
+	 Epoch:    4| train time: 62.844 | train_loss: 10.644266 = 0.360624 + 3.443581 + 1.2e-05 + 6.84005
+	 Recall: [0.04503147] NDCG: [0.03689993] Pre: [0.01894079]
+
+	 Epoch:    5| train time: 62.183 | train_loss: 10.728245 = 0.351467 + 3.527291 + 1.7e-05 + 6.84947
+	 Recall: [0.04673107] NDCG: [0.03777622] Pre: [0.01945178]
+
+	 Epoch:    6| train time: 61.629 | train_loss: 10.756999 = 0.350273 + 3.524367 + 2.4e-05 + 6.882335
+	 Recall: [0.04635466] NDCG: [0.03769119] Pre: [0.01929696]
+
+	 Epoch:    7| train time: 61.819 | train_loss: 10.902505 = 0.335253 + 3.664725 + 3.2e-05 + 6.902495
+	 Recall: [0.04796915] NDCG: [0.03888159] Pre: [0.01998841]
+
+	 Epoch:    8| train time: 63.187 | train_loss: 10.84023 = 0.33503 + 3.642788 + 4.3e-05 + 6.862369
+	 Recall: [0.04782652] NDCG: [0.03889686] Pre: [0.01999221]
+
+	 Epoch:    9| train time: 63.420 | train_loss: 10.692347 = 0.34756 + 3.483026 + 5.5e-05 + 6.861705
+	 Recall: [0.04875271] NDCG: [0.03979576] Pre: [0.02035598]
+
+	 Epoch:   10| train time: 62.244 | train_loss: 10.922866 = 0.322315 + 3.717248 + 7e-05 + 6.883233
+	 Recall: [0.04953831] NDCG: [0.04040356] Pre: [0.02068841]
+
+	 Epoch:   11| train time: 62.729 | train_loss: 10.846439 = 0.324977 + 3.641524 + 8.9e-05 + 6.879848
+	 Recall: [0.04997453] NDCG: [0.04067222] Pre: [0.02080429]
+
+	 Epoch:   12| train time: 62.294 | train_loss: 10.915245 = 0.311786 + 3.721324 + 0.000113 + 6.882022
+	 Recall: [0.05009078] NDCG: [0.04076182] Pre: [0.02088502]
+
+	 Epoch:   13| train time: 61.949 | train_loss: 10.791689 = 0.316702 + 3.567885 + 0.000147 + 6.906955
+	 Recall: [0.04983786] NDCG: [0.04053824] Pre: [0.02082898]
+
+	 Epoch:   14| train time: 62.090 | train_loss: 10.910642 = 0.285531 + 3.769962 + 0.000194 + 6.854955
+	 Recall: [0.04998221] NDCG: [0.04080976] Pre: [0.02093346]
+
+	 Epoch:   15| train time: 61.480 | train_loss: 10.705056 = 0.282308 + 3.53289 + 0.000268 + 6.889589
+	 Recall: [0.05113271] NDCG: [0.04177193] Pre: [0.02151473]
+
+	 Epoch:   16| train time: 63.398 | train_loss: 10.827012 = 0.237102 + 3.689103 + 0.000387 + 6.90042
+	 Recall: [0.05229082] NDCG: [0.04264541] Pre: [0.02207511]
+
+	 Epoch:   17| train time: 62.308 | train_loss: 10.614381 = 0.201187 + 3.532371 + 0.000571 + 6.880252
+	 Recall: [0.05341282] NDCG: [0.04326031] Pre: [0.02248447]
+
+	 Epoch:   18| train time: 63.503 | train_loss: 10.527962 = 0.155113 + 3.4629 + 0.000833 + 6.909115
+	 Recall: [0.05387141] NDCG: [0.0432922] Pre: [0.02258135]
+
+	 Epoch:   19| train time: 62.181 | train_loss: 10.620577 = 0.111035 + 3.622916 + 0.00115 + 6.885475
+	 Recall: [0.05407086] NDCG: [0.04324815] Pre: [0.02258135]
+
+	 Epoch:   20| train time: 61.875 | train_loss: 10.764314 = 0.083142 + 3.745369 + 0.00148 + 6.934323
+	 Recall: [0.05391144] NDCG: [0.04296342] Pre: [0.02242178]
+
+	 Epoch:   21| train time: 62.950 | train_loss: 10.569687 = 0.06935 + 3.612439 + 0.001815 + 6.886082
+	 Recall: [0.05362718] NDCG: [0.04262247] Pre: [0.02221663]
+
+	 Epoch:   22| train time: 62.597 | train_loss: 10.427243 = 0.059139 + 3.475662 + 0.00216 + 6.890281
+	 Recall: [0.05311985] NDCG: [0.04223391] Pre: [0.02199818]
+
+	 Epoch:   23| train time: 61.627 | train_loss: 10.331073 = 0.051287 + 3.395863 + 0.002485 + 6.881437
+	 Recall: [0.0529079] NDCG: [0.04196188] Pre: [0.02184621]
+
+	 Epoch:   24| train time: 62.326 | train_loss: 10.442307 = 0.043322 + 3.51564 + 0.002795 + 6.88055
+	 Recall: [0.05261956] NDCG: [0.04170623] Pre: [0.02169994]
+
+	 Epoch:   25| train time: 61.650 | train_loss: 10.586705 = 0.037363 + 3.661339 + 0.003078 + 6.884925
+	 Recall: [0.05243211] NDCG: [0.0414948] Pre: [0.02161256]
+
+	 Epoch:   26| train time: 62.062 | train_loss: 10.494697 = 0.034765 + 3.581109 + 0.003339 + 6.875484
+	 Recall: [0.05222889] NDCG: [0.04129421] Pre: [0.02149384]
+
+	 Epoch:   27| train time: 63.073 | train_loss: 10.488048 = 0.032321 + 3.564969 + 0.003585 + 6.887172
+	 Recall: [0.0519564] NDCG: [0.04104136] Pre: [0.02136086]
+
+	 Epoch:   28| train time: 63.136 | train_loss: 10.366851 = 0.030503 + 3.467815 + 0.003826 + 6.864707
+	 Recall: [0.05168632] NDCG: [0.04078745] Pre: [0.02124879]
+
+	 Epoch:   29| train time: 62.064 | train_loss: 10.235203 = 0.02985 + 3.305801 + 0.004058 + 6.895494
+	 Recall: [0.05140546] NDCG: [0.04060281] Pre: [0.02115761]
+
+	 Epoch:   30| train time: 62.816 | train_loss: 10.618981 = 0.025516 + 3.657602 + 0.004274 + 6.931589
+	 Recall: [0.05129244] NDCG: [0.04044135] Pre: [0.02105028]
+
+	 Model training process completed.
+	 best epoch: 19
+	 best recall: 0.05407086253378062
+
+Process finished with exit code 0
