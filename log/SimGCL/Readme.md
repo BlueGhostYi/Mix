@@ -1,4 +1,4 @@
-The folder provides the training logs of SimGCL on four datasets. The suffix_1 indicates that `torch.unique` was used, while the suffix _2 indicates that `torch.unique` was not used.
+The folder provides the training logs of SimGCL on four datasets. The suffix_1 indicates that `torch.unique` was used, while the suffix _2 indicates that `torch.unique` was not used. All experimental results were obtained using ID-GRec.
 
 **Hyperparameter settings:**
 - Douban-Book:
