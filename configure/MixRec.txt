@@ -1,7 +1,7 @@
 dataset_path = ./dataset/
 dataset = tmall
 top_K = [10, 20]
-training_epochs = 100
+training_epochs = 60
 embedding_size = 64
 batch_size = 2048
 test_batch_size = 2048
