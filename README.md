@@ -44,3 +44,14 @@ ssl_lambda = 0.6
 ## Different Framework
 MixRec has now been integrated into the graph recommendation library ID-GRec: https://github.com/BlueGhostYi/ID-GRec/blob/main/models/MixRec.py
 
+## Citation
+If you find this work is helpful to your research, please consider citing our paper:
+```
+@article{zhang2025mixrec,
+  title={MixRec: Individual and Collective Mixing Empowers Data Augmentation for Recommender Systems},
+  author={Zhang, Yi and Zhang, Yiwen},
+  journal={arXiv preprint arXiv:2501.13579},
+  year={2025}
+}
+```
+
